@@ -10,14 +10,9 @@
 <script>
 function rickroll() {
 	name = prompt("Please type in your name");
-	if (name != null) {
-		prompt(`Please type in "${name} is my name!"`);
-		prompt("Please type '!@#&(*HAHA'");
-		alert("Please press OK");
-	} else {
-		alert("Robot à :)")
-	}
-	
+	prompt(`Please type in "${name} is my name!"`);
+	prompt("Please type '!@#&(*HAHA'");
+	alert("Please press OK");
 	location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
 document.querySelector('button').onclick = rickroll
