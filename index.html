@@ -4,11 +4,15 @@
 <title>Verify Human Webpage</title>
 </head>
 <body>
-<button>Click here to verify that you are a human</button>
+<button>Verify</button>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">about this page</a>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Learn more</button></a>
 <script>
 function rickroll() {
-	prompt("Hello? What is your name?");
-	alert("Please wait unitl the next account is fully loaded");
+	name = prompt("Please type in your name");
+	prompt(`Please type in "${name} is my name!"`);
+	prompt("Please type '!@#&(*HAHA'");
+	alert("Please press OK");
 	location.assign("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
 document.querySelector('button').onclick = rickroll
