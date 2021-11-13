@@ -3,5 +3,15 @@
 <head>
 <title>Test</title>
 </head>
-<body>Test :D</body>
+<body>
+<button>Click here to verify that you are a human</button>
+<script>
+function rickroll() {
+	htmlParse = '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Next, click here</button></a>';
+	document.querySelector('button').append(htmlParse);
+}
+document.querySelector('button').onclick = rickroll
+
+</script>
+</body>
 </html>
